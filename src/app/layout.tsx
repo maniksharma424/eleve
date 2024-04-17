@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="https://eleve.ae/images/favicon.ico" sizes="any" />
       <body className={mulish.className}>{children}</body>
     </html>
   );
