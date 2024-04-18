@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 
 const navLinks = [
   {
@@ -34,11 +34,24 @@ const navLinks = [
 ];
 
 const SideNavBar = () => {
-  const [showNavBar, setShowNavBar] = useState(false);
+    const [showNavBar, setShowNavBar] = useState(false);
 
-  const toggleNavBar = () => {
+    const toggleNavBar = () => {
     setShowNavBar(!showNavBar);
   };
+
+    //   Body Scroll
+    useEffect(() => {
+        if(showNavBar){
+            // prevent scrolling
+            document.body.style.overflow = "hidden";
+        }
+        else{
+            // auto scrolling
+            document.body.style.overflow = "auto";
+        }
+    } , 
+    [showNavBar]);
 
   return (
     <>
@@ -80,7 +93,7 @@ const SideNavBar = () => {
 
       <button
         onClick={toggleNavBar}
-        className=' block sm:hidden text-primary mt-4 '
+        className=' block sm:hidden text-primary mt-3 '
       >
         <Burger />
       </button>
