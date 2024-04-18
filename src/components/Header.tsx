@@ -1,26 +1,27 @@
 "use client";
 import React, { useState } from "react";
+import SideNavBar from "./SideNav";
 
 const headerLinks = [
   {
     name: "Eleve Explore",
-    redirect: "#",
+    redirect: "/",
   },
   {
     name: "Solutions",
-    redirect: "#",
+    redirect: "/",
   },
   {
     name: "Rank me",
-    redirect: "#",
+    redirect: "/",
   },
   {
     name: "Hochads",
-    redirect: "#",
+    redirect: "/",
   },
   {
     name: "Blogs",
-    redirect: "#",
+    redirect: "/",
   },
 ];
 
@@ -40,66 +41,9 @@ const Header = () => {
           Contact us
         </button>
       </ul>
-      <BurgerBtn />
+      <SideNavBar />
     </div>
   );
 };
 
 export default Header;
-
-const BurgerBtn = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
-  const navToggler = () => {
-    setIsNavOpen(!isNavOpen);
-  };
-  return(
-    <>
-    <button
-          id='navbar-toggle'
-          onClick={navToggler}
-          className=' block sm:hidden py-4 text-primary '
-        >
-          <Burger />
-        </button>
-
-     <nav
-          id='navbar-links'
-          className={`mt-5 ${
-            isNavOpen ? "block" : "hidden"
-          } sm:hidden flex-col absolute top-full left-2 right-0 bg-white`}
-        >
-          {headerLinks.map((link) => {
-            return (
-              <div className='mb-2' key={link.name}>
-                <a href={link.redirect} className='text-primary text-[16px] font-[400] z-50 hover:text-primary hover:text-lg transition-all duration-300'>
-                  {link.name}
-                </a>
-              </div>
-            );
-          })}
-        </nav>
-  </>
-  );
-};
-
-const Burger = () => {
-  return (
-    <svg
-      xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
-      className='lucide lucide-menu'
-    >
-      <line x1='4' x2='20' y1='12' y2='12' />
-      <line x1='4' x2='20' y1='6' y2='6' />
-      <line x1='4' x2='20' y1='18' y2='18' />
-    </svg>
-  );
-};
