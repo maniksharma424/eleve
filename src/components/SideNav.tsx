@@ -45,7 +45,7 @@ const SideNavBar = () => {
       {/* Backdrop */}
       {showNavBar && (
         <div
-          className='fixed inset-0 bg-black opacity-50 z-40'
+          className='fixed inset-0 bg-black opacity-80 z-40'
           onClick={toggleNavBar}
         ></div>
       )}
