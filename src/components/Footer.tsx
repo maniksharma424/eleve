@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer bg-primary px-10 py-3'>
       <div className='text-[50px] text-white font-[600]'>eleve</div>
-      <div className='lg:grid lg:grid-cols-4'>
+      <div className='lg:grid lg:grid-cols-5'>
         <div className='mr-3 mt-3'>
           <div className='text-[30px] text-white font-[400]'>Eleve Explore</div>
           <div className='text-[20px] text-white font-[300]'>
