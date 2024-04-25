@@ -1,4 +1,4 @@
-import { SECTION_ONE_IMAGE } from "@/constants";
+import { SECTION_ONE_IMAGE, mailtoLink } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -12,8 +12,9 @@ const Section1 = () => {
           </p>
 
           <p className=" text-[28px] font-[600] mt-5 tracking-wide text-secondary text-start ">
-            Eleve can help brands learn from insights obtained from A.I driven
-            analysis, understand the market trends.
+            Innovate and impress with full-stack solutions that make headlines.
+            From pixel-perfect frontends to robust backends, we architect web
+            experiences that captivate and convert.
           </p>
         </div>
         <div className="sm:w-1/2 w-full">
@@ -26,9 +27,12 @@ const Section1 = () => {
           />
         </div>
       </div>
-      <button className=" text-white bg-primary px-5 py-1 rounded-sm  shadow-contact-button text-[22px] sm:w-fit w-full sm:mt-0 mt-4 font-[500]">
+      <a
+        href={mailtoLink}
+        className=" text-white bg-primary px-5 py-1 rounded-sm  shadow-contact-button text-[22px] sm:w-fit w-full mt-4 font-[500] "
+      >
         Get in touch
-      </button>
+      </a>
     </div>
   );
 };

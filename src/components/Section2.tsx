@@ -8,7 +8,7 @@ const Section2 = () => {
       <div className=" w-full flex sm:flex-row flex-col ">
         <div className="sm:w-1/2 w-full sm:px-5">
           <Image
-            alt="get-in-touch"
+            alt="innovative-web-development"
             width={400}
             height={200}
             className="w-full"
@@ -17,26 +17,26 @@ const Section2 = () => {
         </div>
         <div className="sm:w-1/2 w-full">
           <p className=" text-[42px] font-[700] tracking-wider text-start  sm:mt-0 mt-5">
-            TRUST ELEVE EXPLORE FOR YOUR BRANDS
+            ENGINEER THE FUTURE WITH ELEVE DEVELOPMENT
           </p>
 
           <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Listen to your customers, track your competitors, and analyze your
-            industry.
+            Architect your online presence with cutting-edge web solutions
+            tailored for impact.
           </p>
 
           <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Use artificial intelligence to mine actionable information from
-            humongous data present online.
+            Leverage the latest in frontend and backend technologies to create
+            seamless, scalable platforms.
           </p>
 
           <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Choose key opinion leaders that suit your brand s niche and uncover
-            their demographic to enhance brand outreach.
+            Optimize your user experience with intuitive interfaces and
+            responsive design that adapts to all devices.
           </p>
           <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Contextualize, execute your campaign with the right influencer
-            harnessing word of mouth and maximize your brands buzz and reach.
+            Partner with us to transform your concepts into reality with agile,
+            full-stack development that stands out.
           </p>
         </div>
       </div>
