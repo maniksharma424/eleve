@@ -4,47 +4,44 @@ const Footer = () => {
   return (
     <div className="footer bg-primary px-10 py-3">
       <div className="text-[50px] text-white font-[600]">Eleve</div>
-      <div className="lg:grid lg:grid-cols-5">
+      <div className="lg:grid lg:grid-cols-4">
         <div className="mr-3 mt-3">
           <div className="text-[30px] text-white font-[400]">
             Development Services
           </div>
           <div className="text-[20px] text-white font-[300]">
-            Frontend Innovation
+            Cutting-Edge Frontend Development
           </div>
           <div className="text-[20px] text-white font-[300]">
-            Backend Efficiency
+            High-Performance Backend Solutions
           </div>
           <div className="text-[20px] text-white font-[300]">
-            Full-Stack Mastery
+            Comprehensive Full-Stack Expertise
           </div>
         </div>
 
         <div className="mr-3 mt-3">
           <div className="text-[30px] text-white font-[400]">Resources</div>
-          <div className="text-[20px] text-white font-[300]">Documentation</div>
-          <div className="text-[20px] text-white font-[300]">API Reference</div>
+          <div className="text-[20px] text-white font-[300]">
+            Developer Documentation
+          </div>
+          <div className="text-[20px] text-white font-[300]">
+            API & Integration Guides
+          </div>
         </div>
 
         <div className="mr-3 mt-3">
           <div className="text-[30px] text-white font-[400]">Technologies</div>
           <div className="text-[20px] text-white font-[300]">
-            JavaScript Frameworks
+            Latest JavaScript Frameworks
           </div>
           <div className="text-[20px] text-white font-[300]">
-            Cloud Services
+            Advanced Cloud Solutions
           </div>
           <div className="text-[20px] text-white font-[300]">
-            E-Commerce Platforms
+            Scalable E-Commerce Systems
           </div>
         </div>
-
-        {/* <div className="mr-3 mt-3">
-          <div className="text-[30px] text-white font-[400]">Company Blog</div>
-          <div className="text-[20px] text-white font-[300]">
-            Insights & Updates
-          </div>
-        </div> */}
 
         <div className="lg:col-end-7 mt-3">
           <div className="text-[30px] text-white font-[400]">Contact Us</div>
@@ -52,7 +49,7 @@ const Footer = () => {
             San Francisco, California, USA
           </div>
           <div className="text-[20px] text-white font-[300]">
-            Ready to start a project? Get in touch.
+            Engage with us for your next project.
           </div>
         </div>
       </div>
@@ -64,7 +61,7 @@ const Footer = () => {
 
         <div>
           <span className="text-[20px] text-white font-[300]">
-            Copyright © Eleve Dev. All Rights Reserved. 2024 | A
+            Copyright © Eleve Brands. All Rights Reserved. 2024 | A
             Developer-Centric Company
           </span>
         </div>

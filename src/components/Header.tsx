@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import SideNavBar from "./SideNav";
+import { mailtoLink } from "@/constants";
 
 const headerLinks = [
   {
@@ -38,9 +39,12 @@ const Header = () => {
           );
         })}
         </ul> */}
-      <button className=" text-white bg-primary px-3 py-1 h-fit rounded-sm  shadow-contact-button">
+      <a
+        href={mailtoLink}
+        className=" text-white bg-primary px-3 py-1 h-fit rounded-sm  shadow-contact-button"
+      >
         Contact us
-      </button>
+      </a>
       <SideNavBar />
     </div>
   );

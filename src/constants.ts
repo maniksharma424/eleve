@@ -5,37 +5,37 @@ export const solutions = [
     imageUrl: "https://eleve.ae/images/brand_1.png",
     name: "Full-Stack Development",
     description:
-      "Craft end-to-end solutions with a robust stack tailored to your business needs.",
+      "Deploy comprehensive solutions with a robust full-stack approach tailored to meet your business objectives and technological requirements.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_2.png",
     name: "Agile Workflows",
     description:
-      "Accelerate product lifecycle with our iterative development and continuous feedback loops.",
+      "Enhance product development with our agile methodologies that ensure swift iterations and adaptability in response to market changes.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_3.png",
     name: "Responsive Design",
     description:
-      "Ensure an optimal viewing experience with web designs that fluidly respond to all devices.",
+      "Deliver exceptional user experiences with designs that adapt seamlessly to any device, boosting accessibility and engagement.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_4.png",
     name: "Cloud Integration",
     description:
-      "Elevate your business with scalable cloud solutions for greater flexibility and security.",
+      "Leverage the cloud for high scalability and security, optimizing operational efficiency and supporting business growth.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_5.png",
     name: "E-Commerce Solutions",
     description:
-      "Drive online sales with a user-friendly platform, equipped with the latest e-commerce technologies.",
+      "Create dynamic online stores with our advanced e-commerce solutions, designed to drive sales and enhance the shopping experience.",
   },
   {
     imageUrl: "https://eleve.ae/images/agency_4.png",
     name: "Data-Driven Decisions",
     description:
-      "Harness the power of data analytics to make informed decisions and strategize effectively.",
+      "Utilize advanced analytics to extract actionable insights, ensuring your business strategies are data-informed and targeted for maximum effectiveness.",
   },
 ];
 

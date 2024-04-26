@@ -8,13 +8,13 @@ const Section1 = () => {
       <div className=" w-full flex sm:flex-row flex-col-reverse ">
         <div className="sm:w-1/2 w-full">
           <p className=" text-[42px] font-[900] tracking-wider text-start  sm:mt-0 mt-5">
-            WE ENABLE BRANDS EXPLORE THEIR AHA MOMENT!
+            IGNITE YOUR BRAND{"'"}S DIGITAL FLAME!
           </p>
-
           <p className=" text-[28px] font-[600] mt-5 tracking-wide text-secondary text-start ">
-            Innovate and impress with full-stack solutions that make headlines.
-            From pixel-perfect frontends to robust backends, we architect web
-            experiences that captivate and convert.
+            At Eleve Brands, we transform your online space into a digital
+            powerhouse. From stunning visual designs to seamless user
+            experiences, we ensure your website reflects the essence of your
+            brand and engages users at every click.
           </p>
         </div>
         <div className="sm:w-1/2 w-full">
