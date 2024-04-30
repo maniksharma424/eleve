@@ -1,12 +1,17 @@
+"use client";
 import { SECTION_ONE_IMAGE, mailtoLink } from "@/constants";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
+import SignUp from "./SignModal";
 
-
-
-const Section1 = ({handleModal}:any) => {
+const Section1 = () => {
+  // Connect modal
+  const [showModal, setShowModal] = useState(false);
   return (
-    <div className=" w-full sm:px-8 px-4 sm:mt-[50px] mt-6 pt-[200px]" id="Section-1">
+    <div
+      className=" w-full sm:px-8 px-4 sm:mt-[50px] mt-6 pt-[200px]"
+      id="Section-1"
+    >
       <div className=" w-full flex sm:flex-row flex-col-reverse ">
         <div className="sm:w-1/2 w-full">
           <p className=" text-[42px] font-[900] tracking-wider text-start  sm:mt-0 mt-5">
@@ -30,11 +35,16 @@ const Section1 = ({handleModal}:any) => {
         </div>
       </div>
       <button
-        onClick={handleModal}
+        onClick={() => {
+          setShowModal(true);
+        }}
         className=" text-white bg-primary px-5 py-1 rounded-sm  shadow-contact-button text-[22px] sm:w-fit w-full mt-4 font-[500] "
       >
         Get in touch
       </button>
+      {showModal && (
+        <SignUp showModal={showModal} setShowModal={setShowModal} />
+      )}
     </div>
   );
 };
