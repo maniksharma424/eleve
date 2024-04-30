@@ -4,7 +4,7 @@ import React from "react";
 
 const Section4 = () => {
   return (
-    <div className="w-full sm:mt-16 mt-8 sm:px-8 px-4">
+    <div className="w-full sm:mt-16 mt-8 sm:px-8 px-4" id='Section-4'>
       <p className=" text-[42px] font-[700] text-center">
         Benefit through our suite of solutions!
       </p>
