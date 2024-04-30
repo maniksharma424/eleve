@@ -4,7 +4,7 @@ import React from "react";
 
 const Section3 = () => {
   return (
-    <div className="w-full sm:px-8 px-4 mt-20 bg-[#f3fbff]">
+    <div className="w-full sm:px-8 px-4 mt-20 bg-[#f3fbff]" id='Section-3'>
       <div className="w-full flex sm:flex-row flex-col-reverse">
         <div className="sm:w-1/2 w-full sm:px-5">
           <p className="text-[42px] font-[700] text-start sm:mt-0 mt-5">

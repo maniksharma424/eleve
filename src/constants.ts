@@ -73,6 +73,17 @@ export const data = [
     designation: "Chief Innovation Officer at OBI4wan",
   },
 ];
+
+export const serviceData = [
+  { name: "Web Development", checked: false },
+  { name: "SEO and Content", checked: false },
+  { name: "Logo Design Services", checked: false },
+  { name: "Paid Search Campaigns", checked: false },
+  { name: "E-Commerce Solutions", checked: false },
+  { name: "Data-Driven Decisions", checked: false }
+];
+
+
 export const SECTION_ONE_IMAGE = "https://eleve.ae/images/brand_homepage.png";
 export const SECTION_TWO_IMAGE = "https://eleve.ae/images/brand1.png";
 export const SECTION_THREE_IMAGE = "https://eleve.ae/images/brand2.png";

@@ -1,36 +1,33 @@
 "use client";
 import React, { useState, useEffect} from "react";
+import {mailtoLink} from '@/constants';
 
 const navLinks = [
   {
     name: "Eleve Explore",
     redirect: "/",
     sub: [
-      { name: "Eleve AI Analytics", redirect: "/" },
-      { name: "Influencer Marketing", redirect: "/" },
-      { name: "Collaboration Dashboard", redirect: "/" },
+      { name: "Lets Connect", redirect: "#Section-1" },
+      { name: "What we do?", redirect: "#Section-2" },
+      { name: "Quality", redirect: "#Section-3" },
     ],
   },
   {
-    name: "Solutions",
-    redirect: "/",
-    sub: [
-      { name: "Brands", redirect: "/" },
-      { name: "Agencies", redirect: "/" },
-    ],
-  },
-  {
-    name: "Rank me",
-    redirect: "/",
-  },
-  {
-    name: "Hochads",
-    redirect: "/",
+    name: "Benifits",
+    redirect: "#Section-4"
+    // sub: [
+    //   { name: "Brands", redirect: "/" },
+    //   { name: "Agencies", redirect: "/" },
+    // ],
   },
   {
     name: "Blogs",
     redirect: "/",
   },
+  {
+    name: "Contact Us",
+    redirect: mailtoLink,
+  }
 ];
 
 const SideNavBar = () => {

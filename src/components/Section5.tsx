@@ -17,7 +17,7 @@ import { data } from "@/constants";
 
 const Section5 = () => {
   return (
-    <div className="space-y-4 mx-auto text-center px-6 h-auto">
+    <div className="space-y-4 mx-auto text-center px-6 h-auto" id='Section-5'>
       <h2 className=" text-[42px] font-[700]">
         Here what our customers have to say
       </h2>
