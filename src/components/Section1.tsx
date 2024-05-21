@@ -18,7 +18,7 @@ const Section1 = () => {
             LIGHT UP YOUR BRAND ONLINE!
           </p>
           <p className="text-[28px] font-[600] mt-5 tracking-wide text-secondary text-start">
-            At Eleve Brands, we turn your website into a digital powerhouse. We
+            At Élève Brands, we turn your website into a digital powerhouse. We
             create stunning designs and smooth user experiences to make sure
             your website shows off your brand and keeps visitors engaged.
           </p>
