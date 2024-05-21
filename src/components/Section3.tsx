@@ -17,7 +17,7 @@ const Section3 = () => {
           </p>
 
           <p className="sm:text-[18px] text-[12px] font-[600] mt-2 sm:mt-5 tracking-wide text-secondary text-start">
-            Improve your site's performance with our continuous integration and
+            Improve your site performance with our continuous integration and
             delivery systems, keeping everything running smoothly.
           </p>
 
