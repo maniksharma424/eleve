@@ -9,9 +9,9 @@ export const solutions = [
   },
   {
     imageUrl: "https://eleve.ae/images/brand_2.png",
-    name: "Quick and Flexible Workflows",
+    name: "SEO and Content",
     description:
-      "Speed up your website development with our methods that allow fast updates and easy adjustments as needed.",
+      "Specialize in creating and optimizing Google Ads campaigns designed to drive engagement and attract more patients to your practice.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_3.png",
@@ -21,15 +21,15 @@ export const solutions = [
   },
   {
     imageUrl: "https://eleve.ae/images/brand_4.png",
-    name: "Cloud Integration",
+    name: "Business on Cloud",
     description:
       "Leverage the cloud for high scalability and security, optimizing operational efficiency and supporting business growth.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_5.png",
-    name: "E-Commerce Solutions",
+    name: "Logo Designing Solutions",
     description:
-      "Create dynamic online stores with our advanced e-commerce solutions, designed to drive sales and enhance the shopping experience.",
+      "Create dynamic logos with our advanced logo designing solutions, designed to drive sales and enhance the shopping experience.",
   },
   {
     imageUrl: "https://eleve.ae/images/agency_4.png",

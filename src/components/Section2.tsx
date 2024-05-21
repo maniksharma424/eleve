@@ -20,7 +20,7 @@ const Section2 = () => {
             BUILDING YOUR DIGITAL DREAMS
           </p>
           <p className="sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start">
-            At Élève Brands, we create stunning websites where every detail
+            At èlève Brands, we create stunning websites where every detail
             matters. We make sure your site looks amazing and works perfectly.
           </p>
           <p className="sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start">
