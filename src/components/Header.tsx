@@ -31,7 +31,12 @@ const Header = () => {
               className='relative'
               key={link.name}
               onMouseEnter={() => setDropdown(link.name === "Services")}
-              onClick={() => setDropdown(!dropdown)}
+              onClick={() =>{
+                if(link.name === "Services"){
+                  setDropdown(!dropdown)
+                }
+              }
+        }
             >
               <a
                 href={link.redirect}
