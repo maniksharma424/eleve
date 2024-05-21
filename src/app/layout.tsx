@@ -5,8 +5,9 @@ import "./globals.css";
 const mulish = Mulish({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Eleve - Web Development Solutions",
-  description: "Custom web development solutions crafted by Eleve.",
+  title: "Eleve Brands - Elevate Your Digital Presence",
+  description:
+    "Transforming brands with innovative web solutions. Join Eleve and ignite your online presence today!",
 };
 
 export default function RootLayout({
