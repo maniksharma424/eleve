@@ -4,7 +4,7 @@ import React from "react";
 
 const Section3 = () => {
   return (
-    <div className="w-full sm:px-8 px-4 mt-20 bg-[#f3fbff]" id='Section-3'>
+    <div className="w-full sm:px-8 px-4 mt-20 bg-[#f3fbff]" id="Section-3">
       <div className="w-full flex sm:flex-row flex-col-reverse">
         <div className="sm:w-1/2 w-full sm:px-5">
           <p className="text-[42px] font-[700] text-start sm:mt-0 mt-5">
@@ -12,26 +12,23 @@ const Section3 = () => {
           </p>
 
           <p className="sm:text-[18px] text-[12px] font-[600] mt-2 sm:mt-5 tracking-wide text-secondary text-start">
-            Craft cutting-edge web applications with our full-stack development
-            prowess, ensuring your digital infrastructure is robust and
-            scalable.
+            Build advanced web applications with our full-stack development
+            skills, ensuring your site is strong and scalable.
           </p>
 
           <p className="sm:text-[18px] text-[12px] font-[600] mt-2 sm:mt-5 tracking-wide text-secondary text-start">
-            Enhance your site’s performance with our continuous integration and
-            delivery pipelines, designed to keep your platform running smoothly
-            and efficiently.
+            Improve your site's performance with our continuous integration and
+            delivery systems, keeping everything running smoothly.
           </p>
 
           <p className="sm:text-[18px] text-[12px] font-[600] mt-2 sm:mt-5 tracking-wide text-secondary text-start">
-            Experience transformative growth with responsive designs and modern
-            UX/UI practices tailored to your audience{"'"}s needs, boosting
-            engagement and conversion rates.
+            Grow with responsive designs and modern UX/UI practices tailored to
+            your audience, boosting engagement and conversions.
           </p>
 
           <p className="sm:text-[18px] text-[12px] font-[600] mt-2 sm:mt-5 tracking-wide text-secondary text-start">
-            Leverage our 24/7 support and proactive solutions, ensuring your
-            business stays ahead in a rapidly evolving digital landscape.
+            Benefit from our 24/7 support and proactive solutions, keeping your
+            business ahead in the fast-changing digital world.
           </p>
         </div>
 

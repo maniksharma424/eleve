@@ -9,19 +9,18 @@ const Section1 = () => {
   const [showModal, setShowModal] = useState(false);
   return (
     <div
-      className=" w-full sm:px-8 px-4 sm:mt-[50px] mt-6 pt-[200px]"
+      className="w-full sm:px-8 px-4 sm:mt-[50px] mt-6 pt-[200px]"
       id="Section-1"
     >
-      <div className=" w-full flex sm:flex-row flex-col-reverse ">
+      <div className="w-full flex sm:flex-row flex-col-reverse">
         <div className="sm:w-1/2 w-full">
-          <p className=" text-[42px] font-[900] tracking-wider text-start  sm:mt-0 mt-5">
-            IGNITE YOUR BRAND{"'"}S DIGITAL FLAME!
+          <p className="text-[42px] font-[900] tracking-wider text-start sm:mt-0 mt-5">
+            LIGHT UP YOUR BRAND ONLINE!
           </p>
-          <p className=" text-[28px] font-[600] mt-5 tracking-wide text-secondary text-start ">
-            At Eleve Brands, we transform your online space into a digital
-            powerhouse. From stunning visual designs to seamless user
-            experiences, we ensure your website reflects the essence of your
-            brand and engages users at every click.
+          <p className="text-[28px] font-[600] mt-5 tracking-wide text-secondary text-start">
+            At Eleve Brands, we turn your website into a digital powerhouse. We
+            create stunning designs and smooth user experiences to make sure
+            your website shows off your brand and keeps visitors engaged.
           </p>
         </div>
         <div className="sm:w-1/2 w-full">
@@ -35,12 +34,10 @@ const Section1 = () => {
         </div>
       </div>
       <button
-        onClick={() => {
-          setShowModal(true);
-        }}
-        className=" text-white bg-primary px-5 py-1 rounded-sm  shadow-contact-button text-[22px] sm:w-fit w-full mt-4 font-[500] "
+        onClick={() => setShowModal(true)}
+        className="text-white bg-primary px-5 py-1 shadow-contact-button text-[22px] sm:w-fit w-full mt-4 font-[500] rounded-lg"
       >
-        Get in touch
+        Get in Touch
       </button>
       {showModal && (
         <SignUp showModal={showModal} setShowModal={setShowModal} />
