@@ -17,7 +17,7 @@ const Section4 = () => {
                 alt="solution-image"
                 width={110}
                 height={78}
-                className="w-[100px] h-[78px] object-contain"
+                className="w-[100px] h-[78px] object-contain shadow-lg rounded-lg solutiion-image "
               />
               <div className=" flex-1 pl-8">
                 <p className=" text-[26px] font-[600]">{solution.name}</p>

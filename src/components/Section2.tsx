@@ -4,8 +4,8 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <div className=" w-full sm:px-8 px-4 mt-20" id='Section-2'>
-      <div className=" w-full flex sm:flex-row flex-col ">
+    <div className="w-full sm:px-8 px-4 mt-20" id="Section-2">
+      <div className="w-full flex sm:flex-row flex-col">
         <div className="sm:w-1/2 w-full sm:px-5">
           <Image
             alt="innovative-web-development"
@@ -16,28 +16,24 @@ const Section2 = () => {
           />
         </div>
         <div className="sm:w-1/2 w-full">
-          <p className=" text-[42px] font-[700] tracking-wider text-start sm:mt-0 mt-5">
-            CRAFTING DIGITAL MASTERPIECES WITH ELEVE
+          <p className="text-[42px] font-[700] tracking-wider text-start sm:mt-0 mt-5">
+            BUILDING YOUR DIGITAL DREAMS
           </p>
-          <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Dive deep into the art of website design with Élève Brands, where
-            every pixel matters. Our approach ensures your digital presence is
-            not just functional but also breathtaking.
+          <p className="sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start">
+            At Élève Brands, we create stunning websites where every detail
+            matters. We make sure your site looks amazing and works perfectly.
           </p>
-          <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Harness the power of cutting-edge technology with custom web
-            solutions tailored to engage and convert your target audience
-            seamlessly across all devices.
+          <p className="sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start">
+            We use the latest technology to build custom web solutions that
+            engage your audience on all devices.
           </p>
-          <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Experience mobile-responsive designs that ensure your site performs
-            flawlessly, offering a consistent user experience that boosts
-            customer engagement.
+          <p className="sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start">
+            Our mobile-responsive designs ensure your site works great
+            everywhere, keeping your customers engaged.
           </p>
-          <p className=" sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start ">
-            Join forces with us to turn your vision into digital reality; from
-            initial concept to final execution, our full-stack development
-            process is designed to exceed expectations.
+          <p className="sm:text-[18px] text-[12px] font-[600] sm:mt-5 mt-2 tracking-wide text-secondary text-start">
+            Partner with us to bring your vision to life. From start to finish,
+            we aim to exceed your expectations.
           </p>
         </div>
       </div>

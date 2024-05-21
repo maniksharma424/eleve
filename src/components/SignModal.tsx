@@ -15,6 +15,9 @@ const SignUp = ({ showModal, setShowModal }: any) => {
       // auto scrolling
       document.body.style.overflow = "auto";
     }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
   }, [showModal]);
   // Define an interface for the service option
   interface ServiceOptions {
@@ -87,7 +90,7 @@ const SignUp = ({ showModal, setShowModal }: any) => {
         >
           <div
             id="form-controller"
-            className={`bg-slate-200 rounded-md drop-shadow-lg w-4/5 sm:w-1/2 md:p-0`}
+            className={`bg-white rounded-md drop-shadow-lg w-4/5 sm:w-1/2 md:p-0`}
           >
             <form
               className="grid gap-y-3 p-[40px] mr-5 w-full"
@@ -99,7 +102,7 @@ const SignUp = ({ showModal, setShowModal }: any) => {
                 </label>
 
                 <input
-                  className="p-2 rounded-md w-full"
+                  className="p-2 rounded-md w-full bg-custom-light-gray"
                   type="text"
                   placeholder="Your Name"
                   name="fullName"
@@ -116,7 +119,7 @@ const SignUp = ({ showModal, setShowModal }: any) => {
                 </label>
 
                 <input
-                  className="p-2 rounded-md w-full"
+                  className="p-2 rounded-md w-full bg-custom-light-gray"
                   type="email"
                   placeholder="your@mail.com"
                   name="email"
@@ -133,7 +136,7 @@ const SignUp = ({ showModal, setShowModal }: any) => {
                 </label>
 
                 <input
-                  className="p-2 rounded-md w-full"
+                  className="p-2 rounded-md w-full bg-custom-light-gray"
                   type="tel"
                   placeholder="ex- 1231234567"
                   name="mobile"
@@ -152,7 +155,7 @@ const SignUp = ({ showModal, setShowModal }: any) => {
                 </label>
 
                 <input
-                  className="p-2 rounded-md w-full"
+                  className="p-2 rounded-md w-full bg-custom-light-gray"
                   type="text"
                   placeholder="ex- SDE"
                   id="designation"
@@ -188,21 +191,21 @@ const SignUp = ({ showModal, setShowModal }: any) => {
 
               <div className="flex justify-between mt-5">
                 <button
-                  onClick={() => {
-                    setShowModal((n: any) => !n);
-                  }}
-                  className="shadow bg-blue-500 hover:bg-blue-400 px-4 py-2 text-white font-[700] rounded-md w-2/5"
-                  type="submit"
-                >
-                  Submit
-                </button>
-                <button
-                  className="shadow bg-red-400 hover:bg-red-200 px-4 py-2 text-white font-[700] rounded-md w-2/5"
+                  className="shadow bg-custom-black hover:bg-custom-black/70 px-4 py-2 text-white font-[700] rounded-md w-2/5"
                   onClick={() => {
                     setShowModal((n: any) => !n);
                   }}
                 >
                   Cancel
+                </button>
+                <button
+                  onClick={() => {
+                    setShowModal((n: any) => !n);
+                  }}
+                  className="shadow bg-primary hover:bg-primary/70 px-4 py-2 text-white font-[700] rounded-md w-2/5"
+                  type="submit"
+                >
+                  Submit
                 </button>
               </div>
             </form>

@@ -3,21 +3,21 @@
 export const solutions = [
   {
     imageUrl: "https://eleve.ae/images/brand_1.png",
-    name: "Full-Stack Development",
+    name: "Web Development",
     description:
       "Deploy comprehensive solutions with a robust full-stack approach tailored to meet your business objectives and technological requirements.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_2.png",
-    name: "Agile Workflows",
+    name: "Quick and Flexible Workflows",
     description:
-      "Enhance product development with our agile methodologies that ensure swift iterations and adaptability in response to market changes.",
+      "Speed up your website development with our methods that allow fast updates and easy adjustments as needed.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_3.png",
-    name: "Responsive Design",
+    name: "User Insights",
     description:
-      "Deliver exceptional user experiences with designs that adapt seamlessly to any device, boosting accessibility and engagement.",
+      "Understand your users better with our tools that help you learn what they need and how they interact with your website.",
   },
   {
     imageUrl: "https://eleve.ae/images/brand_4.png",
@@ -33,9 +33,9 @@ export const solutions = [
   },
   {
     imageUrl: "https://eleve.ae/images/agency_4.png",
-    name: "Data-Driven Decisions",
+    name: "Smart Choices with Data",
     description:
-      "Utilize advanced analytics to extract actionable insights, ensuring your business strategies are data-informed and targeted for maximum effectiveness.",
+      "Use our data tools to get valuable information that helps you make the best decisions for your business.",
   },
 ];
 
@@ -80,12 +80,11 @@ export const serviceData = [
   { name: "Logo Design Services", checked: false },
   { name: "Paid Search Campaigns", checked: false },
   { name: "E-Commerce Solutions", checked: false },
-  { name: "Data-Driven Decisions", checked: false }
+  { name: "Data-Driven Decisions", checked: false },
 ];
-
 
 export const SECTION_ONE_IMAGE = "https://eleve.ae/images/brand_homepage.png";
 export const SECTION_TWO_IMAGE = "https://eleve.ae/images/brand1.png";
 export const SECTION_THREE_IMAGE = "https://eleve.ae/images/brand2.png";
-const dummyEmail = "contact@yourdomain.com";
+const dummyEmail = "adityas@elevebrands.com";
 export const mailtoLink = `mailto:${dummyEmail}`;
