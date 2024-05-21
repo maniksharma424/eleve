@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div
-      className="footer bg-primary text-custom-dark-gray mt-10 px-10 py-3"
+      className="footer bg-primary text-slate-800 mt-10 px-10 py-3"
       id="Footer"
     >
       <div className="text-[50px] font-[600]">Eleve</div>
