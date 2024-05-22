@@ -6,7 +6,7 @@ const Footer = () => {
       className="footer bg-primary text-slate-800 mt-10 px-10 py-3"
       id="Footer"
     >
-      <div className="text-[50px] font-[600]">Eleve</div>
+      <div className="text-[50px] font-[600]">èlève Brands</div>
       <div className="lg:grid lg:grid-cols-3">
         <div className="mr-3 mt-3">
           <div className="text-[30px] font-[400]">Development Services</div>
@@ -42,7 +42,7 @@ const Footer = () => {
 
         <div>
           <span className="text-[20px] font-[300]">
-            Copyright © Eleve Brands. All Rights Reserved. 2024 | A
+            Copyright © èlève Brands. All Rights Reserved. 2024 | A
             Developer-Centric Company
           </span>
         </div>
